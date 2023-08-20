@@ -12,7 +12,7 @@ var games = new[]
     "call of duty", "free fire", "doom", "half life", "team fortress", "apex legends"
 };
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Hello Folks!");
 app.MapGet("/api/games", () => games);
 
 app.Run();
